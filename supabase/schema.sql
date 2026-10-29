@@ -1,0 +1,8 @@
+-- Apple Vendor Hub: backend setup checklist
+-- This is intentionally not a production schema. Review requirements and implement
+-- tables, policies, and storage access controls before connecting real customer data.
+-- Never disable RLS or expose a service_role key in browser code.
+-- Suggested tables: profiles, products, orders, sell_requests, wishlist, messages.
+-- Suggested protections: authenticated users may read public active products;
+-- users may read/write only their own orders and sell requests; only profiles.role='admin'
+-- may create/update/delete products or broadcast messages.
