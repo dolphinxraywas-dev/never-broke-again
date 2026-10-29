@@ -1,0 +1,9 @@
+{
+  "name": "Apple Vendor Hub Bhutan",
+  "short_name": "Vendor Hub",
+  "description": "Buy, sell and trade iPhones with Apple Vendor Hub Bhutan.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#061733",
+  "theme_color": "#071b3b"
+}
